@@ -1,73 +1,74 @@
-# Welcome to your Lovable project
+# Kanishuk Reddy Portfolio
 
-## Project info
+🚀 A modern, responsive full-stack developer portfolio built with **React**, **TypeScript**, **Vite**, **Tailwind CSS**, and **shadcn/ui**.  
+This project showcases my professional experience, skills, and projects across healthcare, legal, and finance domains.
 
-**URL**: https://lovable.dev/projects/cc919968-6939-413b-9d5d-328abce660aa
+## 🌐 Live Site
 
-## How can I edit this code?
+**[kanishuk-portfolio.vercel.app](https://kanishuk-portfolio.vercel.app)**
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 📁 Project Structure
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/cc919968-6939-413b-9d5d-328abce660aa) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+├── src/
+│ ├── components/ # UI sections (Hero, About, Skills, Experience)
+│ ├── pages/ # Index routing page
+│ ├── hooks/ # Custom hooks
+│ └── main.tsx # App entry point
+├── public/ # Favicon, logo, and static assets
+├── tailwind.config.ts # Tailwind customization
+├── vite.config.ts # Vite setup
+└── package.json # Project metadata
 ```
+---
 
-**Edit a file directly in GitHub**
+## 🔧 Tech Stack
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- ⚛️ **React 18**
+- ⚡ **Vite**
+- 🎨 **Tailwind CSS**
+- 🧩 **shadcn/ui** components
+- 🟦 **TypeScript**
+- ☁️ Hosted on **Vercel**
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📦 Getting Started Locally
 
-## What technologies are used for this project?
+### Prerequisites
 
-This project is built with:
+- Node.js ≥ 16.x
+- npm
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Setup Instructions
 
-## How can I deploy this project?
+```bash
+# Clone the repo
+git clone https://github.com/Kanishuk/kanishuk-portfolio.git
 
-Simply open [Lovable](https://lovable.dev/projects/cc919968-6939-413b-9d5d-328abce660aa) and click on Share -> Publish.
+# Move into the folder
+cd kanishuk-portfolio
 
-## Can I connect a custom domain to my Lovable project?
+# Install dependencies
+npm install
 
-Yes, you can!
+# Start development server
+npm run dev
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+```
+🌍 Deployment
+This site is live and automatically deployed via Vercel:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+bash
+Copy
+Edit
+# Build production files
+npm run build
+
+# Preview locally
+npm run preview
+
+📫 Contact
+Email: kanishukreddy02@gmail.com
+LinkedIn: linkedin.com/in/kanishukreddy
