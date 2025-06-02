@@ -3,7 +3,7 @@ import { Hero } from "@/components/Hero";
 import { About } from "@/components/About";
 import { Skills } from "@/components/Skills";
 import { Experience } from "@/components/Experience";
-import { Education } from "@/components/education";
+import { Education } from "@/components/Education";
 import { Navigation } from "@/components/Navigation";
 
 const Index = () => {
