@@ -18,7 +18,7 @@ export function Hero() {
         <div className="animate-fade-in">
           <div className="mb-8">
             <img 
-              src="\public\photo.jpg" // Replace with your image URL
+              src="/photo.jpg" // Replace with your image URL
               alt="Kanishuk Reddy Lingareddy Gari"
               className="w-48 h-48 mx-auto rounded-full object-cover shadow-2xl border-4 border-white ring-4 ring-blue-200 hover:scale-105 transition-transform duration-300"
             />
