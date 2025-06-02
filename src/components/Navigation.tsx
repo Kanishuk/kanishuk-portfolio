@@ -45,6 +45,12 @@ export function Navigation() {
             >
               Experience
             </button>
+            <button
+              onClick={() => scrollToSection("education")}
+              className="text-gray-700 hover:text-blue-600 transition-colors duration-200"
+            >
+              Education
+            </button>
           </div>
 
           {/* Mobile menu button */}
@@ -85,6 +91,12 @@ export function Navigation() {
                 className="text-gray-700 hover:text-blue-600 transition-colors duration-200 text-left py-2"
               >
                 Experience
+              </button>
+              <button
+                onClick={() => scrollToSection("education")}
+                className="text-gray-700 hover:text-blue-600 transition-colors duration-200 text-left py-2"
+              >
+                Education
               </button>
             </div>
           </div>

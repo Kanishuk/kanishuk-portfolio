@@ -16,6 +16,13 @@ export function Hero() {
     <section id="home" className="min-h-screen flex items-center justify-center pt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="animate-fade-in">
+          <div className="mb-8">
+            <img 
+              src="\public\photo.jpg" // Replace with your image URL
+              alt="Kanishuk Reddy Lingareddy Gari"
+              className="w-48 h-48 mx-auto rounded-full object-cover shadow-2xl border-4 border-white ring-4 ring-blue-200 hover:scale-105 transition-transform duration-300"
+            />
+          </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
             <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-blue-800 bg-clip-text text-transparent">
               KANISHUK REDDY LINGAREDDY GARI
@@ -25,7 +32,7 @@ export function Hero() {
             AWS Certified Solutions Architect & Senior Full-Stack Java Developer
           </h2>
           <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed">
-            "Building scalable, secure, and cloud-native solutions for healthcare, legal, and finance industries."
+            "Passionate about building secure, scalable web applications using modern technologies."
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
@@ -56,7 +63,7 @@ export function Hero() {
               LinkedIn
             </Button>
             <Button 
-              onClick={() => openLink('https://medium.com')}
+              onClick={() => openLink('https://medium.com/@kanishukreddy')}
               variant="outline"
               className="border-2 border-green-600 text-green-600 hover:bg-green-600 hover:text-white px-6 py-3 text-lg rounded-full transition-all duration-300 flex items-center gap-2"
             >

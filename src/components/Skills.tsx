@@ -1,33 +1,12 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 
 export function Skills() {
-  const skillCategories = [
-    {
-      title: "Frontend",
-      skills: ["React.js", "Angular", "Vue.js", "Tailwind CSS", "Material UI"],
-      color: "from-blue-500 to-blue-600"
-    },
-    {
-      title: "Backend",
-      skills: ["Spring Boot", "Node.js (Express)", "Spring Security", "GraphQL"],
-      color: "from-green-500 to-green-600"
-    },
-    {
-      title: "Databases",
-      skills: ["PostgreSQL", "MongoDB", "Redis", "MySQL"],
-      color: "from-purple-500 to-purple-600"
-    },
-    {
-      title: "Messaging & Eventing",
-      skills: ["Apache Kafka", "RabbitMQ", "WebSockets"],
-      color: "from-orange-500 to-orange-600"
-    },
-    {
-      title: "Cloud & DevOps",
-      skills: ["AWS", "Azure", "Docker", "Kubernetes", "GitHub Actions", "Jenkins"],
-      color: "from-red-500 to-red-600"
-    }
+  const allTechnologies = [
+    "React.js", "Angular", "Vue.js", "Tailwind CSS", "Material UI",
+    "Spring Boot", "Node.js (Express)", "Spring Security", "GraphQL",
+    "PostgreSQL", "MongoDB", "Redis", "MySQL",
+    "Apache Kafka", "RabbitMQ", "WebSockets",
+    "AWS", "Azure", "Docker", "Kubernetes", "GitHub Actions", "Jenkins"
   ];
 
   return (
@@ -42,49 +21,20 @@ export function Skills() {
           </p>
         </div>
 
-        <div className="grid gap-8">
-          {skillCategories.map((category, index) => (
-            <Card key={index} className="hover:shadow-lg transition-shadow duration-300">
-              <CardContent className="p-8">
-                <h3 className={`text-2xl font-bold mb-6 bg-gradient-to-r ${category.color} bg-clip-text text-transparent`}>
-                  {category.title}
-                </h3>
-                <div className="flex flex-wrap gap-3">
-                  {category.skills.map((skill, skillIndex) => (
-                    <span
-                      key={skillIndex}
-                      className="px-4 py-2 bg-gradient-to-r from-blue-50 to-purple-50 text-blue-700 rounded-full text-sm font-medium hover:shadow-md transition-all duration-200 hover:scale-105 transform border border-blue-100"
-                    >
-                      {skill}
-                    </span>
-                  ))}
+        <Card className="hover:shadow-lg transition-shadow duration-300">
+          <CardContent className="p-8">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
+              {allTechnologies.map((tech, index) => (
+                <div
+                  key={index}
+                  className="flex items-center justify-center p-4 bg-gradient-to-r from-blue-50 to-purple-50 text-blue-700 rounded-lg text-sm font-medium hover:shadow-md transition-all duration-200 hover:scale-105 transform border border-blue-100 text-center"
+                >
+                  {tech}
                 </div>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-
-        <div className="mt-12">
-          <Card className="hover:shadow-lg transition-shadow duration-300">
-            <CardContent className="p-8">
-              <h3 className="text-2xl font-bold mb-6 text-center bg-gradient-to-r from-indigo-600 to-pink-600 bg-clip-text text-transparent">
-                Key Technologies Overview
-              </h3>
-              <div className="overflow-x-auto">
-                <div className="flex space-x-4 pb-4 min-w-max">
-                  {["React.js", "Spring Boot", "AWS", "Docker", "Kafka", "PostgreSQL", "Redis", "Kubernetes"].map((tech, index) => (
-                    <div
-                      key={index}
-                      className="flex-shrink-0 bg-gradient-to-r from-indigo-50 to-pink-50 rounded-lg p-4 text-center hover:shadow-md transition-all duration-200 hover:scale-105 transform border border-indigo-100 min-w-[120px]"
-                    >
-                      <span className="font-medium text-gray-800">{tech}</span>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-        </div>
+              ))}
+            </div>
+          </CardContent>
+        </Card>
       </div>
     </section>
   );
