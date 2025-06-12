@@ -32,7 +32,7 @@ export function Hero() {
             AWS Certified Solutions Architect & Senior Full-Stack Java Developer
           </h2>
           <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed">
-            "Passionate about building secure, scalable web applications using modern technologies."
+            "Passionate about building secure, scalable applications using modern technologies."
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">

@@ -2,11 +2,11 @@ import { Card, CardContent } from "@/components/ui/card";
 
 export function Skills() {
   const allTechnologies = [
-    "React.js", "Angular", "Vue.js", "Tailwind CSS", "Material UI",
-    "Spring Boot", "Node.js (Express)", "Spring Security", "GraphQL",
-    "PostgreSQL", "MongoDB", "Redis", "MySQL",
+    "React.js", "Angular", "Vue.js", "Tailwind CSS", "Bootstrap", 
+    "Java", "Spring Boot", "Node.js (Express)", "Spring Security", "GraphQL",
+    "OAuth 2.0", "JWT", "Oracle Database", "PostgreSQL", "MongoDB", "Redis", "MySQL",
     "Apache Kafka", "RabbitMQ", "WebSockets",
-    "AWS", "Azure", "Docker", "Kubernetes", "GitHub Actions", "Jenkins"
+    "AWS", "Azure", "Docker", "Kubernetes", "Git", "GitHub", "Jenkins"
   ];
 
   return (

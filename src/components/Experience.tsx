@@ -5,48 +5,38 @@ import { Badge } from "@/components/ui/badge";
 export function Experience() {
   const experiences = [
     {
-      title: "Attorney Payment System",
-      role: "Full Stack Java Developer",
-      company: "Enqbator",
-      duration: "Aug 2022 – Present",
-      description: "Secure legal payment automation platform enabling compliant invoice and trust transactions for law firms.",
-      technologies: ["React.js", "Redux Toolkit", "Spring Boot", "MySQL", "MongoDB", "Kafka", "AWS", "Docker"],
+      title: "AMD GPU Cloud Provisioning Platform",
+      role: "Senior Full Stack Java Developer",
+      company: "AMD",
+      duration: "September 2023 – Present",
       gradient: "from-blue-500 to-purple-600"
     },
     {
-      title: "AMD Unified Developer Platform",
-      role: "Full Stack Developer", 
-      company: "AMD",
-      duration: "2021 – 2022",
-      description: "Developer portal for accessing AMD SDKs, performance analytics, and integration tools across GPU and CPU ecosystems.",
-      technologies: ["React.js", "Next.js", "Node.js", "PostgreSQL", "Redis", "Keycloak", "AWS EKS"],
+      title: "Attorney Payment System",
+      role: "Full Stack Java Developer", 
+      company: "Enqbator",
+      duration: "September 2021 – August 2023",
       gradient: "from-green-500 to-blue-600"
     },
     {
       title: "Eastern Wealth Management Portal",
-      role: "Full Stack Developer",
-      company: "Eastern Bank", 
-      duration: "2020 – 2021",
-      description: "A customer-facing portal to manage investments and portfolio analytics with secure self-service tools.",
-      technologies: ["Angular", "NgRx", "Spring Boot", "Azure SQL", "RabbitMQ", "AKS"],
+      role: "Full Stack Java Developer",
+      company: "Eastern Bank",
+      duration: "December 2019 – August 2021",
       gradient: "from-purple-500 to-pink-600"
     },
     {
-      title: "Eastern Business Lending Workflow",
-      role: "Full Stack Developer",
-      company: "Eastern Bank",
-      duration: "2019 – 2020", 
-      description: "A digitized loan origination platform to streamline commercial lending and compliance automation.",
-      technologies: ["Angular 6", "Spring Boot", "SQL Server", "Redis", "RabbitMQ", "Docker"],
+      title: "Integrated Fleet Maintenance & Scheduling Portal",
+      role: "Full Stack Java Developer",
+      company: "Motional",
+      duration: "June 2018 – December 2019",
       gradient: "from-orange-500 to-red-600"
     },
     {
       title: "CouponDunia Cashback Platform",
-      role: "Full Stack Developer",
+      role: "Software Engineer",
       company: "CouponDunia",
-      duration: "2017 – 2019",
-      description: "Scaled and enhanced a high-traffic cashback engine with affiliate tracking and metadata storage.",
-      technologies: ["React.js", "Spring MVC", "Oracle DB", "MongoDB", "Docker", "AWS"],
+      duration: "June 2017 – May 2018",
       gradient: "from-teal-500 to-green-600"
     }
   ];
@@ -58,9 +48,6 @@ export function Experience() {
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
             Professional Experience
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Enterprise-grade solutions across fintech, healthcare, and legal industries
-          </p>
         </div>
 
         <div className="space-y-8">
@@ -80,25 +67,6 @@ export function Experience() {
                   </div>
                   <div className="text-gray-500 font-medium">
                     {project.duration}
-                  </div>
-                </div>
-                
-                <p className="text-gray-700 mb-6 leading-relaxed text-lg">
-                  {project.description}
-                </p>
-                
-                <div className="space-y-2">
-                  <h4 className="text-sm font-semibold text-gray-600 uppercase tracking-wide">Tech Stack</h4>
-                  <div className="flex flex-wrap gap-2">
-                    {project.technologies.map((tech, techIndex) => (
-                      <Badge
-                        key={techIndex}
-                        variant="outline"
-                        className="px-3 py-1 bg-gradient-to-r from-blue-50 to-purple-50 border-blue-200 text-blue-700 hover:shadow-sm transition-all duration-200"
-                      >
-                        {tech}
-                      </Badge>
-                    ))}
                   </div>
                 </div>
               </CardContent>

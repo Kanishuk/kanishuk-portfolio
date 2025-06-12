@@ -18,30 +18,26 @@ export function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              I'm a results-driven Full-Stack Developer with over 8 years of professional experience 
+              I'm a Senior Full-Stack Java Developer with over 8 years of professional experience 
               designing scalable web applications, microservices, and event-driven platforms. I specialize 
               in React.js, Angular, Spring Boot, and AWS, delivering enterprise-grade solutions with a 
               strong focus on performance, security, and user experience.
             </p>
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-              With a proven track record across fintech, healthcare, and legal platforms, I bring deep 
-              technical expertise and Agile collaboration to every project.
+              With a proven track record of building solutions across diverse technology platforms, I bring deep technical expertise, system-level thinking, and Agile collaboration to every project.
             </p>
             
-            <div className="grid grid-cols-3 gap-4 text-center">
+            <div className="flex justify-center gap-16 text-center mt-10">
               <div>
                 <div className="text-3xl font-bold text-blue-600">8+</div>
                 <div className="text-gray-600">Years Experience</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-purple-600">50+</div>
-                <div className="text-gray-600">Projects</div>
-              </div>
-              <div>
-                <div className="text-3xl font-bold text-green-600">3</div>
+                <div className="text-3xl font-bold text-green-600">4</div>
                 <div className="text-gray-600">Industries</div>
               </div>
             </div>
+
           </div>
 
           <div className="space-y-6">
