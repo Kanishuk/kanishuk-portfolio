@@ -34,7 +34,7 @@ export function Experience() {
     },
     {
       title: "CouponDunia Cashback Platform",
-      role: "Software Engineer",
+      role: "Software Developer",
       company: "CouponDunia",
       duration: "June 2017 – May 2018",
       gradient: "from-teal-500 to-green-600"
