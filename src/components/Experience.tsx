@@ -6,28 +6,28 @@ export function Experience() {
   const experiences = [
     {
       title: "AMD GPU Cloud Provisioning Platform",
-      role: "Senior Full Stack Java Developer",
+      role: "Senior Full Stack Developer",
       company: "AMD",
       duration: "September 2023 – Present",
       gradient: "from-blue-500 to-purple-600"
     },
     {
       title: "Attorney Payment System",
-      role: "Full Stack Java Developer", 
+      role: "Full Stack Developer", 
       company: "Enqbator",
       duration: "September 2021 – August 2023",
       gradient: "from-green-500 to-blue-600"
     },
     {
       title: "Eastern Wealth Management Portal",
-      role: "Full Stack Java Developer",
+      role: "Full Stack Developer",
       company: "Eastern Bank",
       duration: "December 2019 – August 2021",
       gradient: "from-purple-500 to-pink-600"
     },
     {
       title: "Integrated Fleet Maintenance & Scheduling Portal",
-      role: "Full Stack Java Developer",
+      role: "Full Stack Developer",
       company: "Motional",
       duration: "June 2018 – December 2019",
       gradient: "from-orange-500 to-red-600"
