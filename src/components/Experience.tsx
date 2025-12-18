@@ -5,10 +5,17 @@ import { Badge } from "@/components/ui/badge";
 export function Experience() {
   const experiences = [
     {
+      title: "Compliance & Regulatory Intelligence Platform",
+      role: "Senior Software Developer",
+      company: "Paypal",
+      duration: "November 2025 – Present",
+      gradient: "from-blue-500 to-purple-600"
+    },
+    {
       title: "AMD GPU Cloud Provisioning Platform",
       role: "Senior Full Stack Developer",
       company: "AMD",
-      duration: "September 2023 – Present",
+      duration: "September 2023 – October 2025",
       gradient: "from-blue-500 to-purple-600"
     },
     {

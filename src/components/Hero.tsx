@@ -18,7 +18,7 @@ export function Hero() {
         <div className="animate-fade-in">
           <div className="mb-8">
             <img 
-              src="/photo.jpg" // Replace with your image URL
+              src="/photo.png" // Replace with your image URL
               alt="Kanishuk Reddy Lingareddy Gari"
               className="w-48 h-48 mx-auto rounded-full object-cover shadow-2xl border-4 border-white ring-4 ring-blue-200 hover:scale-105 transition-transform duration-300"
             />
@@ -29,7 +29,7 @@ export function Hero() {
             </span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-semibold text-gray-700 mb-6">
-            AWS Certified Solutions Architect & Senior Full-Stack Java Developer
+            AWS Certified Solutions Architect & Senior Software Developer
           </h2>
           <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-4xl mx-auto leading-relaxed">
             "Passionate about building secure, scalable applications using modern technologies."

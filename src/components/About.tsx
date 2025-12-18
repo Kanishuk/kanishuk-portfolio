@@ -18,9 +18,9 @@ export function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              I'm a Senior Full-Stack Java Developer with over 8 years of professional experience 
+              I'm a Senior Software Developer with over 8 years of professional experience 
               designing scalable web applications, microservices, and event-driven platforms. I specialize 
-              in React.js, Angular, Spring Boot, and AWS, delivering enterprise-grade solutions with a 
+              in React, Angular, Java, Spring Boot, and AWS, delivering enterprise-grade solutions with a 
               strong focus on performance, security, and user experience.
             </p>
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
